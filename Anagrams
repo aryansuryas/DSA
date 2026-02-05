@@ -11,6 +11,14 @@ triangle       integral          ✅ Yes
 hello	         world	            ❌ No
 dormitory	  dirtyroom	         ✅ Yes
 
+
+Input: listen, silent
+Step 1: sort both
+listen → eilnst
+silent → eilnst
+Step 2: compare
+eilnst == eilnst → Anagram ✅
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #include <iostream>
 #include <algorithm>
