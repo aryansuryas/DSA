@@ -10,3 +10,28 @@ listen	      silent	         ✅ Yes
 triangle       integral          ✅ Yes
 hello	         world	            ❌ No
 dormitory	  dirtyroom	         ✅ Yes
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+int main() {
+    string s1, s2;
+    cout << "Enter first string: ";
+    cin >> s1;
+    cout << "Enter second string: ";
+    cin >> s2;
+
+    // Step 1: Sort the strings
+    sort(s1.begin(), s1.end());
+    sort(s2.begin(), s2.end());
+
+    // Step 2: Compare
+    if (s1 == s2)
+        cout << "Anagrams";
+    else
+        cout << "Not Anagrams";
+
+    return 0;
+}
