@@ -1,14 +1,8 @@
-                                                                                                        🔴🟡🟢ANAGRAMS
-Two strings are anagrams if:
+# ANAGRAMS
 
-They contain exactly the same characters
+🔴🟡🟢Two strings are anagrams if:
+   1.They contain exactly the same characters
+   2.Each character occurs the same number of times
+   3.The order of characters does not matter
 
-Each character occurs the same number of times
-
-The order of characters does not matter
-
-They contain exactly the same characters
-
-Each character occurs the same number of times
-
-The order of characters does not matter
+ 
