@@ -5,4 +5,8 @@
    2.Each character occurs the same number of times
    3.The order of characters does not matter
 
- 
+String 1	       String 2	  Are they anagrams?
+listen	      silent	         ✅ Yes
+triangle       integral          ✅ Yes
+hello	         world	            ❌ No
+dormitory	  dirtyroom	         ✅ Yes
